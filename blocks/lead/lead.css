@@ -1,0 +1,54 @@
+/*lead styles*/
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+.lead {
+	padding: 0 228px 81px;
+	margin: auto;
+	width: 985px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.lead {
+		width: 985px;
+		padding: 0 148px 81px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.lead {
+		width: 928px;
+		padding: 0 48px 76px;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.lead {
+		width: 768px;
+		padding-bottom: 80px;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.lead {
+		width: 375px;
+		padding-bottom: 64px;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.lead {
+		width: 320px;
+		padding-bottom: 64px;
+	}
+}	

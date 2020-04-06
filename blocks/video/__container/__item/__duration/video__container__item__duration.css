@@ -1,0 +1,51 @@
+.video__container__item__duration {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	width: 55px;
+	height: 12px;
+	top: 165px;
+	left: 30px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 13px;
+	letter-spacing: 0.3em;
+	color: #FFFFFF;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.video__container__item__duration {
+		width: 55px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.video__container__item__duration {
+		width: 55px;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.video__container__item__duration {
+		width: 55px;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.video__container__item__duration {
+		width: 84px;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.video__container__item__duration {
+		width: 80px;;
+	}
+}	

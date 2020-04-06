@@ -1,0 +1,47 @@
+.places__place__website__url {
+	width: 484px;
+	height: 18px;
+	font-size: 18px;
+line-height: 30px;
+text-decoration: underline;
+list-style-type: none;
+color: #FFFFFF;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.places__place__website__url {
+		width: 986px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.places__place__website__url {
+		width: 928px;
+		padding-top: 102px;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.places__place__website__url {
+		width: 720px;
+		padding-top: 102px;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.places__place__website__url {
+		display: none;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.places__place__website__url {
+		display: none;
+	}
+}	

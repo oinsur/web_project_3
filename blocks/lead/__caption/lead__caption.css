@@ -1,0 +1,61 @@
+.lead__caption {
+	align-items: flex-start;
+	width: 636px;
+	height: 10px;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.lead {
+		width: 636px;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.15em;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.lead {
+		width: 636px;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.15em;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.lead {
+		width: 636px;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.15em;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.lead {
+		width: 343px;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.15em;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.lead {
+		width: 288px;
+		font-size: 10px;
+		line-height: 12px;
+		letter-spacing: 0.15em;
+	}
+}	

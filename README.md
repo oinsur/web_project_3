@@ -1,20 +1,19 @@
-# Project 3: From Portland to Portland
+# Practicum Project 3: From Portland to Portland
+## Summary
+This is the third project. It is about a bike trip across the USA. The route goes from Portland ME, to Portland OR.
+This project contains some elements which were not used in previous projects.  
+### These consist of the following:
+* Media queries
+* Web fonts
+* Grids
+ 
+## Layout and organization
+All the sections are contained in their own blocks and some of the content is arranged within each block using the flexbox property.
+Some of the images are arranged using Grid.
 
-### Overview
-* Intro
-* Figma
-* Images
+## File Management
+Each block has a folder with a respective CSS file which contains the styles which are applied to that block. All stylesheets are imported  
+into the index.css file. This helps to keep the stylesheet organized and also helps the html page to load faster.  
 
-**Intro**
-
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-
-**Figma**
-
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+## Improvements and modifications
+I have really learned a lot with this project. I have had to work more on this project than the other two previous porjects. I hope to get some feedback about how to improve the project.

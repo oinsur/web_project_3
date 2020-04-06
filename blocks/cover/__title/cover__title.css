@@ -1,0 +1,55 @@
+.cover__title {
+  width: 1094.27px;
+  height: 69px;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+  top: 274px;
+  left: 38.84px;
+  color: #FFFDFD;
+  text-align: center;
+  margin: auto;
+}
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.cover__title {
+    width: 1094.27px;
+    font-size: 72px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.cover__title {
+    width: 1021px;
+    font-size: 72px;
+	}	 
+}
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.cover__title {
+    width: 720px;
+    font-size: 72px;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.cover__title {
+    width: 343px;
+    font-size: 32px;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.cover__title {
+		width: 288px;
+    font-size: 32px;
+	}
+}

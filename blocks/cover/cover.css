@@ -1,0 +1,48 @@
+/*cover styles*/
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+.cover {
+	width: 1184px;
+	height: 594px;
+	margin: auto;	
+	position: relative;
+	overflow: hidden;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.cover {
+		width: 1184px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.cover {
+		width: 1024px;
+	}	 
+}
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.cover {
+		width: 768px;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.cover {
+		width: 375px;
+		flex-direction: column;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.cover {
+		width: 320px;
+		flex-direction: column;
+	}
+}

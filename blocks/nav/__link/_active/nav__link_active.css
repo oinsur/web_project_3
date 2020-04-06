@@ -1,0 +1,4 @@
+/*active link style*/
+.nav__link_active {
+	text-decoration: underline;
+}

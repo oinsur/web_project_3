@@ -1,0 +1,48 @@
+.lead__image {
+	width: 984px;
+	height: 565px;
+	left: 227px;
+	padding-top: 67px;
+	margin: auto;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.lead__image {
+		width: 984px;
+		height: 565px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.lead__image {
+		width: 964px;
+		height: 554px;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.lead__image {
+		width: 768px;
+		height: 441px;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.lead__image {
+		width: 375px;
+		height: 211px;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.lead__image {
+		width: 320px;
+		height: 211px;
+	}
+}	

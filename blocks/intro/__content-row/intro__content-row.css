@@ -1,0 +1,47 @@
+.intro__content-row{
+	width: 683px;
+	height: 75px;
+	margin: 0;
+	padding-top: 45px;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.intro__content-row {
+    width: 683px;
+    padding-top: 45px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.intro__content-row {
+    width: 683px;
+    padding-top: 38px;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.intro__content-row {
+    width: 720px;
+    padding-top: 46px;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.intro__content-row {
+    width: 343px;
+    padding-top: 34px;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.intro__content-row {
+    width: 285px;
+    padding-top: 34px;
+	}
+}	

@@ -1,0 +1,43 @@
+.places__place_left-column{
+  width: 460px;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.places__place_left-column {
+		width: 460px;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.places__place_left-column {
+		width: 440px;
+		
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.places__place_left-column {
+		width: 340px;
+		
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.places__place_left-column {
+		width: 375px;
+	
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.places__place_left-column {
+		width: 320px;
+		
+	}
+}	

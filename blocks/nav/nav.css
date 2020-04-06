@@ -1,0 +1,9 @@
+/*nav styles*/
+@import url(./__link/nav__link.css);
+.nav {
+	margin: 0;
+	display: flex;
+	align-self: flex-end;
+	padding: 0;
+	list-style-type: none;
+}
