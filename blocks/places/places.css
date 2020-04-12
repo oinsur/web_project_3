@@ -1,14 +1,4 @@
 /*places styles*/
-@import url(./__place/places__place.css);
-@import url(./__place/__title/places__place__title.css);
-@import url(./__place/__image/places__place__image.css);
-@import url(./__place/__left-column/places__place_left-column.css);
-@import url(./__place/__right-column/places__place__right-column.css);
-@import url(./__place/__website/places__place__website__url.css);
-@import url(./__place/__website/places__place__website__url-heading.css);
-@import url(./__place/__website/places__place__website__url-heading-second.css);
-@import url(./__place/__paragraph/places__place__paragraph.css);
-
 .places {
 	display: flex;
 	flex-direction: column;

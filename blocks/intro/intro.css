@@ -1,7 +1,6 @@
 /*intro styles*/
 @import url(./__title/intro__title.css);
-@import url(./__content-row/intro__content-row.css);
-@import url(./__content-row__text/intro__content-row__text.css);
+@import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
 @import url(./__subtext/intro__subtext.css);
 @import url(./__subtext/_item/intro__subtext_item.css);
@@ -15,19 +14,20 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
 	.intro {
-		padding-left: 148px;
-		width: 683px;
+		padding-left: 16px;
+		width: 288px;
 	}
 }	
 
-/*big screen*/
-@media screen and (max-width: 1024px) {
+/*small screen*/
+@media screen and (max-width: 375px) {
 	.intro {
-		padding-left: 48px;
-		width: 928px;
+		padding-left: 16px;
+		width: 343px;
 	}
 }	
 
@@ -39,18 +39,18 @@
 	}	
 }
 
-/*small screen*/
-@media screen and (max-width: 375px) {
+/*big screen*/
+@media screen and (max-width: 1024px) {
 	.intro {
-		padding-left: 16px;
-		width: 343px;
+		padding-left: 48px;
+		width: 928px;
 	}
 }	
 
-/*smaller screen*/
-@media screen and (max-width: 320px) {
+/*large screen*/
+@media screen and (max-width: 1280px) {
 	.intro {
-		padding-left: 16px;
-		width: 288px;
+		padding-left: 148px;
+		width: 683px;
 	}
 }	
