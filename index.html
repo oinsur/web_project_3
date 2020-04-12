@@ -6,7 +6,7 @@
   <meta name="description" content="Omar's third project at Practicum by Yandex">
   <meta name="keywords" content="html, css, bem, flex, grid, responsive">
   <meta name="author" content="Omar Insurriaga">
-  <title>Project3</title>
+  <title>From Portland to Portland</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
@@ -17,8 +17,8 @@
     <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="USA icon"> 
     <ul class="nav">
-      <li><a href="#" class="nav__link nav__link_active link">En</a></li>
-      <li><a href="#" class="nav__link link">Es</a></li>
+      <li><a href="#" class="nav__link nav__link_active">En</a></li>
+      <li><a href="#" class="nav__link">Es</a></li>
     </ul>
     </header>
     <!--Lead section-->
@@ -31,7 +31,7 @@
     <!--Intro section-->
     <section class="intro">
       <p class="intro__title">Know the country you live in a little better</p>
-      <p class="intro__content-row intro__content-row__text">That's exactly what we have arranged for you via this travel story</p>
+      <p class="intro__subtitle">That's exactly what we have arranged for you via this travel story</p>
       <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine
          to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave 
          the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful 
@@ -39,124 +39,124 @@
         rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's 
         house to say hi and asking him to sign your favorite book.</p>
       <ul class="intro__subtext">
-        <li class="intro__subtext_item">Distance (miles) 3,644</li>
-        <li class="intro__subtext_item">Travel time (days) 22</li>
-        <li class="intro__subtext_item">Highest point (feet) 9,613</li>
-        <li class="intro__subtext_item">Lowest point (feet) -3</li>
+        <li class="intro__subtext_item"><span class="intro__subtext_item-bold">Distance (miles) </span> 3,644</li>
+        <li class="intro__subtext_item"><span class="intro__subtext_item-bold">Travel time (days) </span> 22</li>
+        <li class="intro__subtext_item"><span class="intro__subtext_item-bold">Highest point (feet) </span> 9,613</li>
+        <li class="intro__subtext_item"><span class="intro__subtext_item-bold">Lowest point (feet) </span> -3</li>
       </ul>
     </section>
     <!--Photos in a grid-->
     <section class="photo">
       <ul class="grid">
-        <li class="grid__item"><img src="./images/photo-grid/__item.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item1.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item2.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item3.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item4.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item5.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item6.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item7.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item8.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item9.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item10.png" alt="" class="grid__item"></li>
-        <li class="grid__item"><img src="./images/photo-grid/__item11.png" alt="" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item.png" alt="Highway near coat" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item1.png" alt="Lake and mountains" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item2.png" alt="Birds near water" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item3.png" alt="Looking down on forest" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item4.png" alt="Trees and fog" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item5.png" alt="Mountains" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item6.png" alt="Looking down from rocks" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item7.png" alt="Close up on flower" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item8.png" alt="Looking down on hills" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item9.png" alt="River near desert" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item10.png" alt="Birds on a wire" class="grid__item"></li>
+        <li class="grid__item"><img src="./images/photo-grid/__item11.png" alt="Desert highway" class="grid__item"></li>
     </ul>
     </section>
     <!--Content for different destinations; each has an image, title, link, and paragraphs.
     The setup will be the same, just the content will change.-->
     <section class="places">
       <!--This is the container for Maine-->
-      <div class="places__place">
-        <div class="places__place_left-column">
-          <h2 class="places__place__title">Maine</h2>
-          <img src="./images/__image.png" alt="Lighthouse on cliff" class="places__place__image">
+      <div class="place">
+        <div class="place_left-column">
+          <h2 class="place__title">Maine</h2>
+          <img src="./images/__image.png" alt="Lighthouse on cliff" class="place__image">
         </div>
         <!--This is the iformation the goes on the right side of container-->
-        <div class="places__place__right-column" >
-          <h2 class="places__place__website__url-heading">URL</h2>  
-          <a href="#" class="places__place__website__url">global.llbean.com</a>
-          <p class="places__place__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly
+        <div class="place__right-column" >
+          <h2 class="place__website-url-heading">URL</h2>  
+          <a href="#" class="place__website-url">global.llbean.com</a>
+          <p class="place__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly
             underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss. 
             As your journey is going to be a long one, you had best be prepared for an arduous trek.</p>
-          <p class="places__place__paragraph">Thankfully, not only is Maine home to the very first European settlers on US territory in 
+          <p class="place__paragraph">Thankfully, not only is Maine home to the very first European settlers on US territory in 
             the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for your 
             3-month expedition.</p>
-          <p class="places__place__paragraph">Average cost: $80-100.</p>
+          <p class="place__paragraph">Average cost: $80-100.</p>
         </div>
       </div>
       <!--This is the container for New Hampshire-->
-      <div class="places__place">
-        <div class="places__place_left-column">
-          <h2 class="places__place__title">New Hampshire</h2>
-          <img src="./images/__image1.png" alt="Lighthouse on cliff" class="places__place__image">
+      <div class="place">
+        <div class="place_left-column">
+          <h2 class="place__title">New Hampshire</h2>
+          <img src="./images/__image1.png" alt="Path through mountain" class="place__image">
         </div>
         <!--This is the iformation the goes on the right side of container-->
-        <div class="places__place__right-column" >
-          <h2 class="places__place__website__url-heading-second">URL</h2>  
-          <a href="#" class="places__place__website__url">timberland.com</a>
-          <p class="places__place__paragraph">There's no better place to lose yourself in nature than in springtime New Hampshire. As serene
+        <div class="place__right-column" >
+          <h2 class="place__website-url-heading-second">URL</h2>  
+          <a href="#" class="place__website-url">timberland.com</a>
+          <p class="place__paragraph">There's no better place to lose yourself in nature than in springtime New Hampshire. As serene
              and beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South. So enjoy it while 
              it lasts.</p>
-          <p class="places__place__paragraph">You won't be on your bike the whole time, so doesn't it make sense to pick up some extra footwear? 
+          <p class="place__paragraph">You won't be on your bike the whole time, so doesn't it make sense to pick up some extra footwear? 
             Fortunately for you, the best outdoor shoe company in the history of the world proudly hails from this state. Cycle by the Timberland 
             headquarters in Stratham, and pick up a pair of rugged, waterproof boots to keep your feet dry. Fitting for unpredictable weather you 
             may be confronted by while passing through the Appalachians. These boots are also better than cycling shoes when pitching a tent.</p>
-          <p class="places__place__paragraph">Average cost: $100-150.</p>
+          <p class="place__paragraph">Average cost: $100-150.</p>
         </div>
       </div>
       <!--This is the container for New York-->
-      <div class="places__place">
-        <div class="places__place_left-column">
-          <h2 class="places__place__title">New York</h2>
-          <img src="./images/__image2.png" alt="Lighthouse on cliff" class="places__place__image">
+      <div class="place">
+        <div class="place_left-column">
+          <h2 class="place__title">New York</h2>
+          <img src="./images/__image2.png" alt="Lighthouse on cliff" class="place__image">
         </div>
         <!--This is the iformation the goes on the right side of container-->
-        <div class="places__place__right-column" >
-          <h2 class="places__place__website__url-heading">URL</h2>  
-          <a href="#" class="places__place__website__url">ge.com</a>
-          <p class="places__place__paragraph">Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down 
+        <div class="place__right-column" >
+          <h2 class="place__website-url-heading">URL</h2>  
+          <a href="#" class="place__website-url">ge.com</a>
+          <p class="place__paragraph">Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down 
           in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to the world-famous General 
           Electric Company.</p>
-          <p class="places__place__paragraph">This is where modern power generators were born as well as contemporary means of transmitting energy. 
+          <p class="place__paragraph">This is where modern power generators were born as well as contemporary means of transmitting energy. 
             So we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help you see through those dark 
             lonely roads on your adventure. Such a light from GE will set you back about $10-20.</p>
         </div>
       </div>
       <!--This is the container for Eerie, PA-->
-      <div class="places__place">
-        <div class="places__place_left-column">
-          <h2 class="places__place__title">Eerie, PA</h2>
-          <img src="./images/__image3.png" alt="Lighthouse on cliff" class="places__place__image">
+      <div class="place">
+        <div class="place_left-column">
+          <h2 class="place__title">Eerie, PA</h2>
+          <img src="./images/__image3.png" alt="Lighthouse on cliff" class="place__image">
         </div>
         <!--This is the iformation the goes on the right side of container-->
-        <div class="places__place__right-column" >
-          <h2 class="places__place__website__url-heading">URL</h2>  
-          <a href="#" class="places__place__website__url">www.fws.gov</a>
-          <p class="places__place__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, 
+        <div class="place__right-column" >
+          <h2 class="place__website-url-heading">URL</h2>  
+          <a href="#" class="place__website-url">www.fws.gov</a>
+          <p class="place__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, 
             is another town worth passing through for several different reasons. While it might be most famously known as the scene of the Gettysburg
              address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has produced a rather decent-sized Amish community (eerie, huh?)</p>
-          <p class="places__place__paragraph">The reason we've brought you here today, if you haven't already guessed, can be summed up by using one 
+          <p class="place__paragraph">The reason we've brought you here today, if you haven't already guessed, can be summed up by using one 
             delicious word: chocolate. Hershey's is a Pennsylvania-based company. Most likely, one of the tastiest missions you'll ever embark on during 
             this tour, try to find an Amish friend and enjoy a bar in the National Wildlife Refuge on your way to Erie and have an extra eerie time!</p>
-            <p class="places__place__paragraph">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
+            <p class="place__paragraph">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
         </div>
       </div>
       <!--This is the container for Ohio-->
-      <div class="places__place">
-        <div class="places__place_left-column">
-          <h2 class="places__place__title">Ohio</h2>
-          <img src="./images/__image4.png" alt="Lighthouse on cliff" class="places__place__image">
+      <div class="place">
+        <div class="place_left-column">
+          <h2 class="place__title">Ohio</h2>
+          <img src="./images/__image4.png" alt="Lighthouse on cliff" class="place__image">
         </div>
         <!--This is the iformation the goes on the right side of container-->
-        <div class="places__place__right-column" >
-          <h2 class="places__place__website__url-heading">URL</h2>  
-          <a href="#" class="places__place__website__url">cedarpoint.com</a>
-          <p class="places__place__paragraph">From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes 
+        <div class="place__right-column" >
+          <h2 class="place__website-url-heading">URL</h2>  
+          <a href="#" class="place__website-url">cedarpoint.com</a>
+          <p class="place__paragraph">From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes 
             are surprisingly common in this particular region of North America, over 200 of which have registered with a magnitude of 2 or higher since 1776. 
             However, earthquakes aren't the only thing shaking this centrally located state. One of the country's largest and oldest roller coaster parks is 
             waiting to ROCK your world in Sandusky, Ohio! This will presumably be one of the most thrilling quests you'll ever complete (provided you can stomach it). 
             Take a much-deserved break to ride as many roller coasters as you can before continue your bike ride!</p>
-          <p class="places__place__paragraph">The cost of a daily ticket: about $100.</p>
+          <p class="place__paragraph">The cost of a daily ticket: about $100.</p>
         </div>
       </div>      
     </section>
@@ -167,18 +167,18 @@
       <!--This is the container for the videos-->
       <div class="video__container">
         <!--This is the code for each video-->
-        <div class="video__container__item">
+        <div class="video__item">
           <a href="https://www.youtube.com/watch?v=2eCG6Ozz-oE"><img src="./images/youtube/youtube 01 1.png" class="video__container__item__bg" alt=""></a>
-          <img src="./images/__icon_play.svg" alt="" class="video__container__item__icon_play">
-          <h2 class="video__container__item__duration">5:27</h2>
-          <h2 class="video__container__item__title">RAGBRAI, Iowa</h2>
+          <img src="./images/__icon_play.svg" alt="" class="video__item_icon-play">
+          <h2 class="video__item_duration">5:27</h2>
+          <h2 class="video__item_title">RAGBRAI, Iowa</h2>
         <!--This is the second video-->
         </div>
-        <div class="video__container__item">
+        <div class="video__item">
           <a href="https://www.youtube.com/watch?v=4mZY7uxb7Gc"><img src="./images/youtube/Image.png" class="video__container__item__bg" alt=""></a>
-          <img src="./images/__icon_play.svg" alt="" class="video__container__item__icon_play">
-          <h2 class="video__container__item__duration">2:36</h2>
-          <h2 class="video__container__item__title">Old Faithful Geyser, Wyoming</h2>
+          <img src="./images/__icon_play.svg" alt="" class="video__item_icon-play">
+          <h2 class="video__item_duration">2:36</h2>
+          <h2 class="video__item_title">Old Faithful Geyser, Wyoming</h2>
         </div>
       </div>
     </section>
@@ -189,25 +189,25 @@
       <!--This is the container for the comments-->
       <ul class="comments__container">
         <!--This is the code for each comment-->
-        <li class="comments__container__item">
-          <img src="./images/354px-Beatrice_Morrow_Cannady 1.png" alt="" class="comments__container__image">
-          <p class="comments__container__comment__quote">It is the duty of the Negro woman to see that in the home there are histories of her race written by 
+        <li class="comments__item">
+          <img src="./images/354px-Beatrice_Morrow_Cannady 1.png" alt="" class="comments__image">
+          <p class="comments__comment_quote">It is the duty of the Negro woman to see that in the home there are histories of her race written by 
           Negro historians.</p>
-          <h2 class="comments__container__comment__author">Beatrice Morrow Cannady, Portland, Oregon</h2>
+          <h2 class="comments__comment_author">Beatrice Morrow Cannady, Portland, Oregon</h2>
         </li>
         <!--This is the second comment-->
-        <li class="comments__container__item">
-          <img src="./images/816px-Jane_Addams_-_Bain_News_Service 1.png" alt="" class="comments__container__image">
-          <p class="comments__container__comment__quote">The good we secure for ourselves is precarious and uncertain, is floating in mid-air, until it is 
+        <li class="comments__item">
+          <img src="./images/816px-Jane_Addams_-_Bain_News_Service 1.png" alt="" class="comments__image">
+          <p class="comments__comment_quote">The good we secure for ourselves is precarious and uncertain, is floating in mid-air, until it is 
           secured for all of us and incorporated into our common life.</p>
-          <h2 class="comments__container__comment__author">Jane Addams, Cedarville, Illinois</h2>
+          <h2 class="comments__comment_author">Jane Addams, Cedarville, Illinois</h2>
         </li>
         <!--This is the third comment-->
-        <li class="comments__container__item">
-          <img src="./images/Stephen_King_-_2011 1.png" alt="" class="comments__container__image">
-          <p class="comments__container__comment__quote">Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each 
+        <li class="comments__item">
+          <img src="./images/Stephen_King_-_2011 1.png" alt="" class="comments__image">
+          <p class="comments__comment_quote">Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each 
           dollar spent.</p>
-          <h2 class="comments__container__comment__author comments__container__comment__author_last">Stephen King, born in Portland, Maine</h2>
+          <h2 class="comments__comment_author comments__comment_author_last">Stephen King, born in Portland, Maine</h2>
         </li>
       </ul>
     </section>
@@ -215,19 +215,15 @@
     <section class="cover">
       <img src="./images/image.jpg" alt="" class="cover-bg__image">
       <h2 class="cover__title">Historic Route 66</h2>
-      <ul class="cover__subtitle">
-        <li class="cover__subtitle_item">The Main Street of America</li> 
-        <li class="cover__subtitle_item">from Santa Monica, Cal. to Chicago, Ill.</li> 
-        <li class="cover__subtitle_item">within an iframe</li>
-      </ul>
+      <p class="cover__subtitle">The Main Street of America<br>from Santa Monica, Cal to Chicago, Ill.<br>within an iframe</p>
     </section>
     <footer class="footer">
       <ul class="footer__links">
         <li><a href="#" class="footer__links_link">Maps</a></li>
         <li><a href="#" class="footer__links_link">Weather</a></li>
         <li><a href="#" class="footer__links_link">Calendar</a></li>
-        <li><p class="footer__copyright">© 2020. Omar Insurriaga</p></li>
       </ul>
+      <p class="footer__copyright">© 2020. Omar Insurriaga</p>
     </footer>
   </div>
 </body>

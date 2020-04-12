@@ -6,19 +6,19 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
+/*smaller screen*/
+@media screen and (max-width: 320px) {
 	.intro__content-row {
-    width: 683px;
-    padding-top: 45px;
+    width: 285px;
+    padding-top: 34px;
 	}
 }	
 
-/*big screen*/
-@media screen and (max-width: 1024px) {
+/*small screen*/
+@media screen and (max-width: 375px) {
 	.intro__content-row {
-    width: 683px;
-    padding-top: 38px;
+    width: 343px;
+    padding-top: 34px;
 	}
 }	
 
@@ -30,18 +30,18 @@
 	}	
 }
 
-/*small screen*/
-@media screen and (max-width: 375px) {
+/*big screen*/
+@media screen and (max-width: 1024px) {
 	.intro__content-row {
-    width: 343px;
-    padding-top: 34px;
+    width: 683px;
+    padding-top: 38px;
 	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
+}
+	
+/*large screen*/
+@media screen and (max-width: 1280px) {
 	.intro__content-row {
-    width: 285px;
-    padding-top: 34px;
+    width: 683px;
+    padding-top: 45px;
 	}
 }	

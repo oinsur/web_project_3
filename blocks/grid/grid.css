@@ -17,6 +17,7 @@
 		grid-template-rows: repeat(3, 1fr);
 	}	
 }
+
 /*big screen*/
 @media screen and (max-width: 1024px) {
 	.grid {
@@ -25,6 +26,7 @@
 		grid-gap: 14px;
 	}	
 }
+
 /*medium screen*/
 @media screen and (max-width: 768px) {
 	.grid {
@@ -42,7 +44,6 @@
 		grid-gap: 16px;
 	}	
 }
-
 /*smaller screen*/
 @media screen and (max-width: 320px) {
 	.grid {

@@ -1,0 +1,9 @@
+
+@import url(./_icon-play/video__item_icon-play.css);
+@import url(./_duration/video__item_duration.css);
+@import url(./_title/video__item_title.css);
+@import url(./_bg/video__item_bg.css);
+.video__item {
+	display: flex;
+	position: relative;
+}

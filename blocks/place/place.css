@@ -1,49 +1,50 @@
-/*places styles*/
-.places {
+/*place styles*/
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__left-column/place_left-column.css);
+@import url(./__right-column/place__right-column.css);
+@import url(./__website/place__website-url.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+	padding-top: 72px;
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
-	width: 986px;
-	margin: auto;
+	justify-content: space-between;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
 /*large screen*/
 @media screen and (max-width: 1280px) {
-	.places {
-		width: 986px;
+	.place {
+		padding-top: 72px;
 	}
 }	
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
-	.places {
-		width: 928px;
+	.place {
 		padding-top: 102px;
 	}
 }	
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
-	.places {
-		width: 720px;
-		padding-top: 102px;
+	.place {
+		padding-top: 111px;
 	}	
 }
 
 /*small screen*/
 @media screen and (max-width: 375px) {
-	.places {
-		width: 375px;
+	.place {
 		padding-top: 64px;
 	}
 }	
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
-	.places {
-		width: 320px;
+	.place {
 		padding-top: 64px;
 	}
 }	

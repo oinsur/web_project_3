@@ -10,6 +10,7 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+
 /*large screen*/
 @media screen and (max-width: 1280px) {
 	.photo {
@@ -48,4 +49,4 @@
 		width: 288px;
 		height: 2392px;
 	}
-}	
+}

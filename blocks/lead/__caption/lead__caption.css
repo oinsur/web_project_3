@@ -10,6 +10,8 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*small screen*/
+
 /*large screen*/
 @media screen and (max-width: 1280px) {
 	.lead {
@@ -18,7 +20,7 @@
 		line-height: 12px;
 		letter-spacing: 0.15em;
 	}
-}	
+}
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
@@ -40,7 +42,6 @@
 	}	
 }
 
-/*small screen*/
 @media screen and (max-width: 375px) {
 	.lead {
 		width: 343px;

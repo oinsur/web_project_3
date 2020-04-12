@@ -1,0 +1,61 @@
+.intro__subtitle {
+	width: 683px;
+	height: 75px;
+	margin: 0;
+	padding-top: 45px;
+	font-size: 24px;
+	line-height: 167.44%;
+	color: #FFFFFF;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.intro__subtitle {
+		width: 683px;
+    padding-top: 45px;
+    font-size: 24px;
+		line-height: 167.44%;
+	}
+}	
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.intro__subtitle {
+		width: 683px;
+    padding-top: 38px;
+    font-size: 24px;
+		line-height: 167.44%;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.intro__subtitle {
+		width: 720px;
+    padding-top: 46px;
+    font-size: 24px;
+		line-height: 167.44%;
+	}	
+}
+
+/*small screen*/
+@media screen and (max-width: 375px) {
+	.intro__subtitle {
+		width: 343px;
+    padding-top: 34px;
+		font-size: 24px;
+		line-height: 167.44%;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
+	.intro__subtitle {
+		width: 285px;
+    padding-top: 34px;
+    font-size: 24px;
+		line-height: 167.44%;
+	}
+}

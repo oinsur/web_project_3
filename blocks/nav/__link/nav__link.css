@@ -3,13 +3,53 @@
 	font-size: 24px;
 	line-height: 23px;
 	margin-left: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+
+/*large screen*/
+@media screen and (max-width: 1280px) {
+	.nav__link {
+		font-size: 24px;
+		line-height: 23px;
+		margin-left: 18px;
+	}
+}
+
+/*big screen*/
+@media screen and (max-width: 1024px) {
+	.nav__link {
+		font-size: 24px;
+		line-height: 23px;
+		margin-left: 18px;
+	}
+}	
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+	.nav__link {
+		font-size: 24px;
+		line-height: 23px;
+		margin-left: 18px;
+	}	
 }
 
 /*small screen*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
+	.nav__link {
+		font-size: 18px;
+		line-height: 97%;
+		margin-left: 16px;
+	}
+}	
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
 	.nav__link {
 		font-size: 18px;
 		line-height: 17px;
 		margin-left: 16px;
-	}	
-}
+	}
+}	

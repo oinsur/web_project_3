@@ -15,19 +15,19 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 
-/*smaller screen*/
-@media screen and (max-width: 320px) {
+/*large screen*/
+@media screen and (max-width: 1280px) {
 	.intro {
-		padding-left: 16px;
-		width: 288px;
+		padding-left: 148px;
+		width: 683px;
 	}
 }	
 
-/*small screen*/
-@media screen and (max-width: 375px) {
+/*big screen*/
+@media screen and (max-width: 1024px) {
 	.intro {
-		padding-left: 16px;
-		width: 343px;
+		padding-left: 48px;
+		width: 928px;
 	}
 }	
 
@@ -39,18 +39,18 @@
 	}	
 }
 
-/*big screen*/
-@media screen and (max-width: 1024px) {
+/*small screen*/
+@media screen and (max-width: 375px) {
 	.intro {
-		padding-left: 48px;
-		width: 928px;
+		padding-left: 16px;
+		width: 343px;
 	}
 }	
 
-/*large screen*/
-@media screen and (max-width: 1280px) {
+/*smaller screen*/
+@media screen and (max-width: 320px) {
 	.intro {
-		padding-left: 148px;
-		width: 683px;
+		padding-left: 16px;
+		width: 288px;
 	}
-}	
+}

@@ -7,13 +7,14 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+
 /*large screen*/
 @media screen and (max-width: 1280px) {
 	.lead__image {
 		width: 984px;
 		height: 565px;
 	}
-}	
+}
 
 /*big screen*/
 @media screen and (max-width: 1024px) {

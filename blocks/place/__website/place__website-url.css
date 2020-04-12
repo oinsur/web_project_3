@@ -1,24 +1,28 @@
-/*places styles*/
-.places {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	width: 986px;
-	margin: auto;
+@import url(./place__website-url-heading.css);
+@import url(./place__website-url-heading-second.css);
+.place__website-url {
+	width: 484px;
+	height: 18px;
+	font-size: 18px;
+line-height: 30px;
+text-decoration: underline;
+list-style-type: none;
+color: #FFFFFF;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
 /*large screen*/
 @media screen and (max-width: 1280px) {
-	.places {
+	
+	.place__website-url {
 		width: 986px;
 	}
 }	
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
-	.places {
+	
+	.place__website-url {
 		width: 928px;
 		padding-top: 102px;
 	}
@@ -26,7 +30,8 @@
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
-	.places {
+	
+	.place__website-url {
 		width: 720px;
 		padding-top: 102px;
 	}	
@@ -34,16 +39,16 @@
 
 /*small screen*/
 @media screen and (max-width: 375px) {
-	.places {
-		width: 375px;
-		padding-top: 64px;
+	
+	.place__website-url {
+		display: none;
 	}
 }	
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
-	.places {
-		width: 320px;
-		padding-top: 64px;
+	
+	.place__website-url {
+		display: none;
 	}
 }	

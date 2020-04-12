@@ -10,18 +10,17 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
+/*large screen*/
+@media screen and (max-width: 1280px) {
 	.page {
-		padding: 18px 0px 22px;
+		padding: 36px 48px 50px;
 	}	
 }
 
-/*small screen*/
-@media screen and (max-width: 375px) {
+/*big screen*/
+@media screen and (max-width: 1024px) {
 	.page {
-		padding: 18px 0px 22px;
+		padding: 36px 48px 50px;	
 	}	
 }
 
@@ -32,15 +31,16 @@
 	}	
 }
 
-/*big screen*/
-@media screen and (max-width: 1024px) {
+/*small screen*/
+@media screen and (max-width: 375px) {
 	.page {
 		padding: 18px 0px 22px;
 	}	
 }
-/*large screen*/
-@media screen and (max-width: 1280px) {
+
+/*smaller screen*/
+@media screen and (max-width: 320px) {
 	.page {
-		padding: 36px 48px 50px;
+		padding: 18px 0px 22px;
 	}	
 }

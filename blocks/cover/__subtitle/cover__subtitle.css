@@ -1,16 +1,15 @@
-@import url(./_item/cover__subtitle_item.css);
 .cover__subtitle {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  width: 382px;
+  width: 1094.27px;
   height: 69px;
-  left: 401px;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
   top: 477px;
-  font-size: 36px;
-  line-height: 39px;
-  color: #FFFFFF;
+  left: 38.84px;
+  color: #FFFDFD;
+  text-align: center;
+  margin: auto;
 }
