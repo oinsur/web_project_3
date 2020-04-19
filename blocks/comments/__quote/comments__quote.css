@@ -1,21 +1,19 @@
-.comments__comment_quote {
-	position: absolute;
-	display: flex;
-	justify-content: space-between;
+.comments__quote {
 	margin: 0;
-	width: 382px;
-	height: 59px;
-	top: 139px;
-	font-size: 14px;
-	line-height: 24px;
-	color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 0;
+    width: 382px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
+
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*large screen*/
 @media screen and (max-width: 1280px) {
-	.comments__comment_quote {
+	.comments__quote {
 		width: 382px;
-		top: 139px;
+		/*top: 139px;*/
 		font-size: 14px;
 		line-height: 24px;
 	}
@@ -23,9 +21,9 @@
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
-	.comments__comment_quote {
+	.comments__quote {
 		width: 296px;
-		top: 125px;
+		/*top: 125px;*/
 		font-size: 14px;
 		line-height: 24px;
 	}	 
@@ -33,9 +31,9 @@
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
-	.comments__comment_quote {
+	.comments__quote {
 		width: 382px;
-		top: 153px;
+		/*top: 153px;*/
 		font-size: 16px;
 	line-height: 23px;
 	}	
@@ -43,9 +41,9 @@
 
 /*small screen*/
 @media screen and (max-width: 375px) {
-	.comments__comment_quote {
+	.comments__quote {
 		width: 342px;
-		top: 153px;
+		/*top: 153px;*/
 		font-size: 16px;
 	line-height: 23px;
 	}
@@ -53,9 +51,9 @@
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
-	.comments__comment_quote {
+	.comments__quote {
 		width: 288px;
-		top: 177px;
+		/*top: 177px;*/
 		font-size: 16px;
 		line-height: 23px;
 	}

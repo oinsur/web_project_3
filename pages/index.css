@@ -14,6 +14,7 @@ up to 425px (mobile devices).
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/cover/cover.css);
@@ -67,3 +68,8 @@ ul {
 /*Cover*/
 
 /*footer*/
+
+
+
+
+

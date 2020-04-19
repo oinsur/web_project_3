@@ -3,6 +3,7 @@
 	display: flex;
 	flex-wrap: wrap;  
 	justify-content: space-between;
+	padding: 0;
 	padding-top: 72px;
 	position: relative;
 	margin: auto;
@@ -35,7 +36,7 @@
 	.video__container {
 		width: 375px;
 		display: block;
-		/*justify-content: center;*/
+		justify-content: center;
 	}
 }	
 
@@ -44,6 +45,6 @@
 	.video__container {
 		width: 320px;
 		display: block;
-		/*justify-content: center;*/
+		justify-content: center;
 	}
 }	

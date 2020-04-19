@@ -1,41 +1,49 @@
-.place__right-column {
-	width: 484px;
+.video__image {
+	width: 583px;
+	height: 323px;
+	background-color: #000000;
+	opacity: 0.5;
+	border-radius: 5px;
 }
 
+.video__image:hover {
+	transition: .5s ease;
+	opacity: 90%;
+}
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*large screen*/
 @media screen and (max-width: 1280px) {
-	.place__right-column {
-		width: 484px;
+	.video__image {
+		width: 583px;
 	}
 }	
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
-	.place__right-column {
+	.video__image {
 		width: 456px;
 	}
 }	
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
-	.place__right-column {
-		width: 352px;
+	.video__image {
+		width: 343px;
 	}	
 }
 
 /*small screen*/
 @media screen and (max-width: 375px) {
-	.place__right-column {
-		width: 343px;
-		padding: 24px 16px 0px;
+	.video__image {
+		width: 288px;
+		justify-content: center;
 	}
 }	
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
-	.place__right-column {
-		width: 288px;
-		padding: 24px 16px 0px;
+	.video__image {
+		width: 320px;
+		justify-content: center;
 	}
 }	

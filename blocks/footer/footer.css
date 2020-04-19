@@ -1,55 +1,28 @@
-@import url(./footer__links.css);
+@import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
+@import url(./__item/footer__item.css);
+@import url(./__items/footer__items.css);
+
+
 .footer {
-	width: 1184px;
-	height: 23px;
-	margin: auto;
-	padding-top: 160px;
-	padding-bottom: 48px;
+  padding: 64px 16px 22px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1184px;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.footer {
-    width: 1184px;
-		height: 23px;
-		padding-top: 160px;
-	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.footer {
-    width: 887px;
-		height: 23px;
-		padding-top: 126px;
-	}	 
+@media (min-width: 768px) {
+  .footer {
+      padding: 102px 24px 24px 24px;
+      flex-direction: row;
+      align-items: center;
+  }
 }
 
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.footer {
-    width: 722px;
-		height: 27px;
-		padding-top: 102px;
-	}	
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.footer {
-    width: 282px;
-		height: 202px;
-		padding-top: 64px;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.footer {
-    width: 167px;
-		height: 202px;
-		padding-top: 64px;
-	}
+@media (min-width: 1024px) {
+  .footer {
+      padding: 160px 48px 48px 48px;
+  }
 }

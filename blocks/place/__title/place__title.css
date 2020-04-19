@@ -1,56 +1,30 @@
 .place__title {
-	margin: 0;
-	font-family: "Inter-Black", sans-serif;
-	width: 457px;
-	font-size: 72px;
-	line-height: 65px;
-	color: #FFFFFF;
-}
-
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.place__title {
-		width: 457px;
-		font-size: 72px;
-		line-height: 65px;
-	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.place__title {
-		width: 440px;
-		font-size: 72px;
-		line-height: 65px;
-	}
-}	
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.place__title {
-		width: 340px;
-		font-size: 42px;
-		line-height: 46px;
-	}	
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.place__title {
-		width: 343px;
-		font-size: 32px;
-		line-height: 35px;
-		padding: 0px 16px 0px;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.place__title {
-		width: 288px;
-		font-size: 32px;
-		line-height: 35px;
-		padding: 0px 16px 0px;
-	}
-}	
+  font-family: "Inter-Black", Arial, sans-serif;
+  font-size: 72px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin: 64px 16px 0;
+  }
+  /*medium screen*/
+  @media (min-width: 768px) {
+    .place__title {
+      font-size: 42px;
+      line-height: 46px;
+      width: 340px;
+      margin: 80px 0 0 0;
+    }
+  }
+  /*big screen*/
+  @media (min-width: 1024px) {
+    .place__title {
+      font-size: 72px;
+      line-height: 65px;
+      width: 440px;
+    }
+  }
+  /*large screen*/
+  @media (min-width: 1280px) {
+    .place__title {
+      width: 460px;
+    }
+  }

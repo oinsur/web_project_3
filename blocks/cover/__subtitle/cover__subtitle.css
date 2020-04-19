@@ -1,15 +1,18 @@
+
 .cover__subtitle {
-  width: 1094.27px;
-  height: 69px;
   font-size: 18px;
   line-height: 26px;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  position: absolute;
-  top: 477px;
-  left: 38.84px;
   color: #FFFDFD;
   text-align: center;
-  margin: auto;
+  position: absolute;
+  width: 382px;
+  top: 477px;
+}
+
+@media (min-width: 768px) {
+  .cover__subtitle {
+      padding: 0 24px;
+      max-width: 438px;
+      margin: 0 0 40px 0;
+  }
 }

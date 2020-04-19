@@ -1,48 +1,45 @@
 /*cover styles*/
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-.cover {
+/*.cover {
 	width: 1184px;
 	height: 594px;
 	margin: auto;	
 	position: relative;
 	overflow: hidden;
-}
+}*/
+.cover {
+	padding: 0;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1184px;
+	margin: 0 auto;
+	min-height: 216px;
+	
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
+
+@media (min-width: 375px) {
 	.cover {
-		width: 1184px;
+			min-height: 272px;
 	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.cover {
-		width: 1024px;
-	}	 
 }
 
-/*medium screen*/
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
 	.cover {
-		width: 768px;
-	}	
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.cover {
-		width: 375px;
-		flex-direction: column;
+			min-height: 500px;
 	}
-}	
+}
 
-/*smaller screen*/
-@media screen and (max-width: 320px) {
+@media (min-width: 1024px) {
 	.cover {
-		width: 320px;
-		flex-direction: column;
+			min-height: 562px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.cover {
+			min-height: 594px;
 	}
 }

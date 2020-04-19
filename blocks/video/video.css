@@ -1,8 +1,11 @@
 /*video styles*/
 @import url(./__container/video__container.css);
-@import url(./__content/video__content-title.css);
-@import url(./__content/video__content-subtitle.css);
+@import url(./__title/video__title.css);
+@import url(./__subtitle/video__subtitle.css);
 @import url(./__item/video__item.css);
+@import url(./__image/video__image.css);
+@import url(./__controls/video__controls.css);
+
 .video {
 	width: 1184px;
 	height: 570px;
