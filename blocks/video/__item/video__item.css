@@ -1,9 +1,10 @@
-
-@import url(./_icon-play/video__item_icon-play.css);
-@import url(./_duration/video__item_duration.css);
-@import url(./_title/video__item_title.css);
-
 .video__item {
-	display: flex;
-	position: relative;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.video__item:hover {
+  opacity: 50%;
+  transition: opacity 0.5s ease;
 }

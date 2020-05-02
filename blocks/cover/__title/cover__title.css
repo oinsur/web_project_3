@@ -1,56 +1,40 @@
-.cover__title { 
-    width: 1094.27px;
-    height: 69px;
-    font-family: "Inter-Black", sans-serif;
-    font-size: 72px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    position: absolute;
-    top: 274px;
-    left: 38.84px;
-    color: #FFFDFD;
-    text-align: center;
-    margin: auto;
+
+.cover__title {
+  margin: 0;
+  padding-top: 274px;
+  padding-bottom: 134px;  
+  color: #FFFFFF;
+  text-align: center;
+  align-self: center; 
+  font-size: 72px;
+  font-family: "Inter-Black";
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.cover__title {
-    width: 1094.27px;
-    font-size: 72px;
-	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.cover__title {
-    width: 1021px;
-    font-size: 72px;
-	}	 
+@media (max-width: 1024px) {
+  .cover__title {
+    padding-top: 240px;
+    padding-bottom: 181px;
+  }
 }
 
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.cover__title {
-    width: 720px;
-    font-size: 72px;
-	}	
+@media (max-width: 768px) {
+  .cover__title {
+    padding-top: 165px;
+    padding-bottom: 127px;
+  }
 }
 
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.cover__title {
-    width: 343px;
+@media (max-width: 375px) {
+  .cover__title {
     font-size: 32px;
-	}
-}	
+    padding-top: 104px;
+    padding-bottom: 55px;
+  }
+}
 
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.cover__title {
-		width: 288px;
-    font-size: 32px;
-	}
+@media (max-width: 320px) {
+  .cover__title {
+    padding-top: 64px;
+    padding-bottom: 40px;
+  }
 }

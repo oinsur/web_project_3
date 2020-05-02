@@ -1,51 +1,40 @@
 /*place styles*/
-/*@import url(./__title/place__title.css);*/
-@import url(./__image/place__image.css);
 @import url(./__title/place__title.css);
-@import url(./__website/place__website.css);
-@import url(./__website-url/place__website-url.css);
+@import url(./__image/place__image.css);
+@import url(./__text-container/place__text-container.css);
+@import url(./__text/place__text.css);
+@import url(./__url-container/place__url-container.css);
 @import url(./__url-heading/place__url-heading.css);
-@import url(./__paragraphs/place__paragraphs.css);
-@import url(./__paragraph/place__paragraph.css);
+@import url(./__url/place__url.css);
 
 .place {
-	display: flex;
-	flex-wrap: wrap;
-	
+  padding: 60px 0 0 0;
+  margin: 0 auto;
+  max-width: 984px;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*large screen*/
-@media screen and (max-width: 1280px) {
-	.place {
-		padding-top: 72px;
-	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.place {
-		padding-top: 102px;
-	}
-}	
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.place {
-		padding-top: 111px;
-	}	
+@media (min-width: 1280px) {
+  .place {
+      grid-gap: 60px 40px;
+  }
 }
 
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.place {
-		padding-top: 64px;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.place {
-		padding-top: 64px;
-	}
-}	
+/*big sreen*/
+@media (min-width: 1024px) {
+    .place {
+        padding: 90px 48px 0 48px;
+        grid-gap: 32px 40px;
+    }
+}
+/*medium screen*/
+@media (min-width: 768px) {
+    .place {
+        padding: 90px 24px 0 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 28px 40px;
+    }
+}

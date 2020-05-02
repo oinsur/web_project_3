@@ -1,0 +1,19 @@
+.video__name {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0 0 4px 0;
+  padding: 0;
+  max-width: 322px;
+}
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*big screen*/
+@media (min-width: 1024px) {
+  .video__name {
+    font-size: 36px;
+    line-height: 39px;
+    min-height: 73px;
+  }
+}

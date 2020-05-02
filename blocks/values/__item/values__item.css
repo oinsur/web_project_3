@@ -1,0 +1,7 @@
+.values__item {
+	list-style-type: none;
+}
+
+.values__item-bold {
+	font-weight: 900;
+}

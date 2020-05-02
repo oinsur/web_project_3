@@ -1,6 +1,5 @@
-.comments__content-title {
+.comments__title {
 	width: 800px;
-	height: 157px;
 	margin: 0;
   align-self: center;
   font-family: "Inter-Black", sans-serif;
@@ -13,7 +12,7 @@
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*large screen*/
 @media screen and (max-width: 1280px) {
-	.comments__content-title {
+	.comments__title {
 		width: 800px;
 		font-size: 72px;
 		line-height: 108.9%;
@@ -22,7 +21,7 @@
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
-	.comments__content-title {
+	.comments__title {
 		width: 800px;
 		font-size: 72px;
 		line-height: 108.9%;
@@ -31,7 +30,7 @@
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
-	.comments__content-title {
+	.comments__title {
 		width: 660px;
 		font-size: 42px;
 		line-height: 46px
@@ -40,7 +39,7 @@
 
 /*small screen*/
 @media screen and (max-width: 375px) {
-	.comments__content-title {
+	.comments__title {
 		width: 343px;
 		font-size: 32px;
 		line-height: 35px
@@ -49,7 +48,7 @@
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
-	.comments__content-title {
+	.comments__title {
 		width: 288px;
 		font-size: 32px;
 		line-height: 35px

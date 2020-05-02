@@ -1,45 +1,47 @@
 /*cover styles*/
+@import url(./__image/cover__image.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-/*.cover {
-	width: 1184px;
-	height: 594px;
-	margin: auto;	
-	position: relative;
-	overflow: hidden;
-}*/
+@import url(./__text/cover__text.css);
+
 .cover {
-	padding: 0;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 1184px;
-	margin: 0 auto;
-	min-height: 216px;
-	
-
-
-@media (min-width: 375px) {
-	.cover {
-			min-height: 272px;
-	}
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1184px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-@media (min-width: 768px) {
-	.cover {
-			min-height: 500px;
-	}
-}
-
-@media (min-width: 1024px) {
-	.cover {
-			min-height: 562px;
-	}
-}
-
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*large screen*/
 @media (min-width: 1280px) {
-	.cover {
-			min-height: 594px;
-	}
+  .cover {
+      min-height: 594px;
+  }
+}
+/*big screen*/
+@media (min-width: 1024px) {
+  .cover {
+      min-height: 562px;
+  }
+}
+/*medium screen*/
+@media (min-width: 768px) {
+  .cover {
+      min-height: 500px;
+  }
+}
+/*small screen*/
+@media (min-width: 375px) {
+  .cover {
+      min-height: 272px;
+  }
+}
+/*smaller screen*/
+.cover:hover {
+  opacity: 50%;
+  transition: opacity 0.5s ease;
 }

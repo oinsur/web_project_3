@@ -2,8 +2,6 @@
 @import url(./__title/intro__title.css);
 @import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
-@import url(./__subtext/intro__subtext.css);
-@import url(./__subtext/_item/intro__subtext_item.css);
 .intro {
 	padding-left: 228px;
 	margin:0;
@@ -18,39 +16,39 @@
 /*large screen*/
 @media screen and (max-width: 1280px) {
 	.intro {
-		padding-left: 148px;
-		width: 683px;
+		padding-left: 0;
+		width: auto;
 	}
 }	
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
 	.intro {
-		padding-left: 48px;
-		width: 928px;
+		padding-left: 0px;
+		width: auto;
 	}
 }	
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
 	.intro {
-		padding-left: 24px;
-		width: 720px;
+		padding-left: 0px;
+		width: auto;
 	}	
 }
 
 /*small screen*/
 @media screen and (max-width: 375px) {
 	.intro {
-		padding-left: 16px;
-		width: 343px;
+		padding-left: 0px;
+		width: auto;
 	}
 }	
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
 	.intro {
-		padding-left: 16px;
-		width: 288px;
+		padding-left: 0px;
+		width: auto;
 	}
 }

@@ -7,6 +7,7 @@
 	line-height: 24px;
 	color: #FFFFFF;
 }
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*big screen*/
 @media (min-width: 1024px) {
   .comments__author {

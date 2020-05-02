@@ -9,38 +9,3 @@
 	font-weight: normal;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.page {
-		padding: 36px 48px 50px;
-	}	
-}
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.page {
-		padding: 36px 48px 50px;	
-	}	
-}
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.page {
-		padding: 36px 24px 24px;	
-	}	
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.page {
-		padding: 18px 0px 22px;
-	}	
-}
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.page {
-		padding: 18px 0px 22px;
-	}	
-}

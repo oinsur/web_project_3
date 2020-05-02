@@ -13,28 +13,32 @@
 /*large screen*/
 @media screen and (max-width: 1280px) {
 	.intro__title {
-		width: 683px;
+    padding-left: 148px;
+		width: 690px;
 	}
 }	
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
 	.intro__title {
-		width: 928px;
+    padding-left: 48px;
+		width: 800px;
 	}
 }	
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
 	.intro__title {
-		width: 720px;
+    padding-left: 24px;
+		width: 760px;
 	}	
 }
 
 /*small screen*/
 @media screen and (max-width: 375px) {
 	.intro__title {
-		width: 343px;
+    padding-left: 16px;
+		width: 350px;
 		font-size: 32px;
 		line-height: 35px
 	}
@@ -43,7 +47,7 @@
 /*smaller screen*/
 @media screen and (max-width: 320px) {
 	.intro__title {
-		width: 288px;
+		width: auto;
 		font-size: 32px;
 		line-height: 35px
 	}

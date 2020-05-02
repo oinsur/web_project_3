@@ -1,12 +1,12 @@
 .lead__title {
-	width: 782px;
+	width: 80%;
 	font-family: "Inter-Black", sans-serif;
 	font-size: 96px;
 	line-height: 93px;
 	text-align: center;
 	align-items: center;
 	margin: auto;
-	color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
@@ -14,7 +14,7 @@
 /*large screen*/
 @media screen and (max-width: 1280px) {
 	.lead__title {
-		width: 782px;
+		width: auto;
 		font-size: 96px;
 		line-height: 93px;
 	}
@@ -23,7 +23,7 @@
 /*big screen*/
 @media screen and (max-width: 1024px) {
 	.lead__title {
-		width: 928px;
+		width: auto;
 		font-size: 96px;
 		line-height: 93px;
 	}
@@ -32,16 +32,23 @@
 /*medium screen*/
 @media screen and (max-width: 768px) {
 	.lead__title {
-		width: 720px;
+		width: auto;
 		font-size: 96px;
 		line-height: 93px;
 	}	
 }
 
+@media screen and (max-width: 750px) {
+  .lead__title {
+    width: auto;
+    font-size: 76px;
+    line-height: 93px;
+  }
+}
 /*small screen*/
 @media screen and (max-width: 375px) {
 	.lead__title {
-		width: 343px;
+		width:auto;
 		font-size: 40px;
 		line-height: 44px;
 	}
@@ -50,6 +57,7 @@
 /*smaller screen*/
 @media screen and (max-width: 320px) {
 	.lead__title {
+    width: auto;
 		font-size: 40px;
 		line-height: 44px;
 	}

@@ -3,57 +3,17 @@
 @import url(./__title/video__title.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__item/video__item.css);
+@import url(./__link/video__link.css);
 @import url(./__image/video__image.css);
-@import url(./__controls/video__controls.css);
+@import url(./__content/video__content.css);
+@import url(./__icon/video__icon.css);
+@import url(./__text/video__text.css);
+@import url(./__name/video__name.css);
+@import url(./__duration/video__duration.css);
+@import url(./__author/video__author.css);
 
 .video {
-	width: 1184px;
-	height: 570px;
-	padding-top: 102px;
-	display: flex;
-	flex-direction: column;
-	margin: auto;
+  padding: 63px 16px 0 16px;
+  max-width: 1184px;
+  margin: 0 auto;
 }
-
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.video {
-		width: 986px;
-	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.video {
-		width: 928px;
-		padding-top: 102px;
-	}
-}	
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.video {
-		width: 720px;
-		padding-top: 102px;
-	}	
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.video {
-		width: 375px;
-		padding-top: 64px;
-		display: block;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.video {
-		width: 320px;
-		padding-top: 64px;
-		display: block;
-	}
-}	

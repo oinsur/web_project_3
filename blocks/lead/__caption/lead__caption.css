@@ -1,7 +1,6 @@
 .lead__caption {
 	align-items: flex-start;
 	width: 636px;
-	height: 10px;
 	font-size: 10px;
 	line-height: 12px;
 	letter-spacing: 0.15em;
@@ -14,7 +13,7 @@
 
 /*large screen*/
 @media screen and (max-width: 1280px) {
-	.lead {
+	.lead__caption {
 		width: 636px;
 		font-size: 10px;
 		line-height: 12px;
@@ -24,7 +23,7 @@
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
-	.lead {
+	.lead__caption {
 		width: 636px;
 		font-size: 10px;
 		line-height: 12px;
@@ -34,8 +33,9 @@
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
-	.lead {
-		width: 636px;
+	.lead__caption {
+    width: 636px;
+    padding-left: 24px;
 		font-size: 10px;
 		line-height: 12px;
 		letter-spacing: 0.15em;
@@ -43,8 +43,9 @@
 }
 
 @media screen and (max-width: 375px) {
-	.lead {
-		width: 343px;
+	.lead__caption {
+    width: 343px;
+    padding-left: 16px;
 		font-size: 10px;
 		line-height: 12px;
 		letter-spacing: 0.15em;
@@ -53,8 +54,9 @@
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
-	.lead {
-		width: 288px;
+	.lead__caption {
+    width: 288px;
+    padding-left: 16px;
 		font-size: 10px;
 		line-height: 12px;
 		letter-spacing: 0.15em;

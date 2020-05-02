@@ -1,16 +1,13 @@
-/*Widths to use for breakpoints
-1024px and higher (small laptops and beyond);
-from 768px to 1024px (tablet in portrait to a tablet in landscape);
-from 425px to 768px (large smartphone to a tablet in portrait);
-up to 425px (mobile devices).
-*/
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/values/values.css);
 @import url(../blocks/photo/photo.css);
 @import url(../blocks/grid/grid.css);
 @import url(../blocks/places/places.css);
@@ -18,58 +15,4 @@ up to 425px (mobile devices).
 @import url(../blocks/video/video.css);
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover-bg/__image/cover-bg__image.css);
 @import url(../blocks/footer/footer.css);
-
-
-/*these are just to help see the different areas*/
-/*div {
-  border: 2px solid red;
-}
-
-img {
-  border: 2px solid green;
-}
-
-h2,h1 {
-  border: 2px solid #F0F;	
-}
-
-section {
-  border: 2px solid #0CC;	
-}
-
-p {
-  border: 2px solid #F0F;
-}
-
-ul {
-  border: 2px solid #F0F;
-}
-
-/*Header*/
-
-/*active link style*/
-
-/*Styles for navigation items*/
-
-/*Lead*/
-
-/*Intro*/
-
-/*Photo Grid*/
-
-/*Places*/
-
-/*Video*/
-
-/*Comments*/
-
-/*Cover*/
-
-/*footer*/
-
-
-
-
-

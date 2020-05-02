@@ -1,0 +1,8 @@
+.cover__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* top: 210px; */
+  width: 100%;
+  height: 100%;
+}

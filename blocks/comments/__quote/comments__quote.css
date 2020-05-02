@@ -33,7 +33,7 @@
 @media screen and (max-width: 768px) {
 	.comments__quote {
 		width: 382px;
-		/*top: 153px;*/
+		margin-top: 0;
 		font-size: 16px;
 	line-height: 23px;
 	}	
@@ -42,7 +42,7 @@
 /*small screen*/
 @media screen and (max-width: 375px) {
 	.comments__quote {
-		width: 342px;
+		width: 343px;
 		/*top: 153px;*/
 		font-size: 16px;
 	line-height: 23px;

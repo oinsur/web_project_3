@@ -1,50 +1,20 @@
 .video__container {
-	width: 1184px;
-	display: flex;
-	flex-wrap: wrap;  
-	justify-content: space-between;
-	padding: 0;
-	padding-top: 72px;
-	position: relative;
-	margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 72px;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.video__container {
-		width: 986px;
-	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.video__container {
-		width: 928px;
-	}
-}	
-
 /*medium screen*/
-@media screen and (max-width: 768px) {
-	.video__container {
-		width: 720px;
-	}	
+@media (min-width: 768px) {
+  .video__container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 16px;
+  }
 }
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.video__container {
-		width: 375px;
-		display: block;
-		justify-content: center;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.video__container {
-		width: 320px;
-		display: block;
-		justify-content: center;
-	}
-}	

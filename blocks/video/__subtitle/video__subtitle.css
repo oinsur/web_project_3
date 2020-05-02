@@ -1,7 +1,7 @@
-.video__content-subtitle {
-	width: 640px;
+.video__subtitle {
+	width: 639px;
 	height: 58px;
-	margin: 0;
+	margin: auto;
 	margin-top: 37px;
   align-self: center;
 	font-style: normal;
@@ -14,7 +14,7 @@
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*large screen*/
 @media screen and (max-width: 1280px) {
-	.video__content-subtitle {
+	.video__subtitle {
 		width: 640px;
 		height: 58px;
 		font-size: 24px;
@@ -24,7 +24,7 @@
 
 /*big screen*/
 @media screen and (max-width: 1024px) {
-	.video__content-subtitle {
+	.video__subtitle {
 		width: 640px;
 		height: 58px;
 		font-size: 24px;
@@ -34,7 +34,7 @@
 
 /*medium screen*/
 @media screen and (max-width: 768px) {
-	.video__content-subtitle {
+	.video__subtitle {
 		width: 640px;
 		height: 58px;
 		font-size: 24px;
@@ -44,8 +44,9 @@
 
 /*small screen*/
 @media screen and (max-width: 375px) {
-	.video__content-subtitle {
-		width: 343px;
+	.video__subtitle {
+    width: 343px;
+    margin-top: 31px;
 		height: 69px;
 		font-size: 16px;
 		line-height: 23px;
@@ -54,8 +55,9 @@
 
 /*smaller screen*/
 @media screen and (max-width: 320px) {
-	.video__content-subtitle {
-		width: 288px;
+	.video__subtitle {
+    width: 288px;
+    margin-top: 25px;
 		height: 72px;
 		font-size: 16px;
 		line-height: 23px;
