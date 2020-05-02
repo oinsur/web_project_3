@@ -17,3 +17,6 @@ into the index.css file. This helps to keep the stylesheet organized and also he
 
 ## Improvements and modifications
 I have really learned a lot with this project. I have had to work more on this project than the other two previous porjects. I hope to get some feedback about how to improve the project.
+
+## GitHub Page
+Here is a link to the GitHub Page: https://oinsur.github.io/web_project_3/
