@@ -1,19 +1,15 @@
 .footer__copyright {
-  font-style: normal;
-  font-weight: normal;
-  color: #FFFFFF;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: left;
-  margin: 48px 0 0 0;
-  padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin: 48px 0 0 0;
+    padding: 0;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*medium screen*/
 @media (min-width: 768px) {
-  .footer__copyright {
-      margin: 0;
-      
-  }
+    .footer__copyright {
+        margin: 0;
+    }
 }

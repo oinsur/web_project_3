@@ -1,56 +1,7 @@
 @import url(./__item/values__item.css);
+
 .values {
-	width: 383px;
-	font-size: 13px;
-	line-height: 20px;
-	color: #FFFFFF;
-	margin: 0;
-	padding: 0;
-	padding-top: 24px;
-}
-
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.values {
-    width: 383px;
-    padding-left: 148px;
-		padding-top: 24px;
-	}
-}
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.values {
-    width: 383px;
-    padding-left: 48px;
-		padding-top: 24px;
-	}
-}	
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.values {
-    width: 720px;
-    padding-left: 24px;
-		padding-top: 25px;
-	}	
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.values {
-    width: 343px;
-    padding-left: 16px;
-		padding-top: 28px;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.values {
-		width: 288px;
-		padding-top: 48px;
-	}
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

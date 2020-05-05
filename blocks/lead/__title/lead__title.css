@@ -1,50 +1,41 @@
 .lead__title {
-	width: 80%;
-	font-family: "Inter-Black", sans-serif;
-	font-size: 96px;
-	line-height: 93px;
-	text-align: center;
-	align-items: center;
-	margin: auto;
-  color: #FFFFFF;
+  font-style: normal;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 96px;
+  line-height: 93px;
+  text-align: center;
+  margin: 0 auto 8px;
+  padding: 0;
+  max-width: 782px;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.lead__title {
-		width: auto;
-		font-size: 96px;
-		line-height: 93px;
-	}
-}
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.lead__title {
-		width: auto;
-		font-size: 96px;
-		line-height: 93px;
-	}
+/*medium screen*/
+@media (max-width: 768px) {
+  .lead__title {
+    margin: 0 auto 48px;
+  }
 }	
 
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.lead__title {
-		width: auto;
-		font-size: 96px;
-		line-height: 93px;
-	}	
-}
-
+/*medium-small screen*/
 @media screen and (max-width: 750px) {
   .lead__title {
     width: auto;
-    font-size: 76px;
-    line-height: 93px;
+    font-size: 66px;
+    line-height: 63px;
   }
 }
+
+/*medium smaller screen*/
+@media screen and (max-width: 510px) {
+  .lead__title {
+    width: auto;
+    font-size: 66px;
+    line-height: 63px;
+  }
+}
+
+
 /*small screen*/
 @media screen and (max-width: 375px) {
 	.lead__title {
@@ -54,11 +45,3 @@
 	}
 }	
 
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.lead__title {
-    width: auto;
-		font-size: 40px;
-		line-height: 44px;
-	}
-}

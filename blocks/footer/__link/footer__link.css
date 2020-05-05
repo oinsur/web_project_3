@@ -1,30 +1,27 @@
 .footer__link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 41px;
-  color: #FFFFFF;
-  text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .footer__link:hover {
-  opacity: 50%;
-  transition: .5s ease;	
+    opacity: 40%;
+    transition: opacity 2s ease-in;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*big screen*/
-@media (min-width: 1024px) {
-  .footer__link {
-      font-size: 24px;
-      line-height: 41px;
-  }
-}
-
-/*medium screen*/
 @media (min-width: 768px) {
-  .footer__link {
-      font-size: 16px;
-      line-height: 27px;
-  }
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 41px;
+    }
 }

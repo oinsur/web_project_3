@@ -1,64 +1,25 @@
 .lead__caption {
-	align-items: flex-start;
-	width: 636px;
-	font-size: 10px;
-	line-height: 12px;
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
-	color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 16px;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*small screen*/
-
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.lead__caption {
-		width: 636px;
-		font-size: 10px;
-		line-height: 12px;
-		letter-spacing: 0.15em;
-	}
+/*medium screen*/
+@media (min-width: 768px) {
+    .lead__caption {
+        margin: 0 24px;
+    }
 }
 
 /*big screen*/
-@media screen and (max-width: 1024px) {
-	.lead__caption {
-		width: 636px;
-		font-size: 10px;
-		line-height: 12px;
-		letter-spacing: 0.15em;
-	}
-}	
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.lead__caption {
-    width: 636px;
-    padding-left: 24px;
-		font-size: 10px;
-		line-height: 12px;
-		letter-spacing: 0.15em;
-	}	
+@media (min-width: 1024px) {
+    .lead__caption {
+        margin: 0 48px;
+    }
 }
-
-@media screen and (max-width: 375px) {
-	.lead__caption {
-    width: 343px;
-    padding-left: 16px;
-		font-size: 10px;
-		line-height: 12px;
-		letter-spacing: 0.15em;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.lead__caption {
-    width: 288px;
-    padding-left: 16px;
-		font-size: 10px;
-		line-height: 12px;
-		letter-spacing: 0.15em;
-	}
-}	

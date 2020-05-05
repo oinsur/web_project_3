@@ -1,9 +1,8 @@
-/*nav styles*/
+@import url(./__item/nav__item.css);
 @import url(./__link/nav__link.css);
+
 .nav {
-	margin: 0;
-	display: flex;
-	align-self: flex-end;
-	padding: 0;
-	list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

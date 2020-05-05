@@ -1,0 +1,10 @@
+.nav__item {
+    display: inline-block;
+    margin: 0 0 0 16px;
+}
+
+@media (min-width: 768px) {
+    .nav__item {
+        margin: 0 0 0 18px;
+    }
+}

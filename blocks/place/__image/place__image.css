@@ -1,40 +1,10 @@
 .place__image {
-  width: 100%;
-  margin: 0 0 24px 0;
+    width: 100%;
+    margin: 0 0 24px 0;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media (min-width: 1280px) {
-  .place__image {
-      width: 460px;
-  }
-}
-
-/*big screen*/
-@media (min-width: 1024px) {
-  .place__image {
-      width: 460px;
-  }
-}
-
-/*medium screen*/
 @media (min-width: 768px) {
-  .place__image {
-      width: 340px;
-  }
-}
-
-/*small screen*/
-@media (min-width: 375px) {
-  .place__image {
-      width: 100%;
-  }
-}
-
-/*smaller screen*/
-@media (min-width: 320px) {
-  .place__image {
-      width: 100%;
-  }
+    .place__image {
+        margin: 0;
+    }
 }

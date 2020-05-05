@@ -1,24 +1,19 @@
 .comments__author {
-	font-family: "Inter-Black", sans-serif;
-	text-align: center;
-  margin: 0 0 24px 0;
-  padding: 0;
-	font-size: 14px;
-	line-height: 24px;
-	color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 0 24px 0;
+    padding: 0;
 }
+
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*big screen*/
 @media (min-width: 1024px) {
-  .comments__author {
-      text-align: start;
-      order: 1;
-      margin: 24px 0 0 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .comments__author {
-      padding-top: 14px;
-  }
+    .comments__author {
+        text-align: start;
+        order: 1;
+        margin: 24px 0 0 0;
+    }
 }

@@ -1,13 +1,9 @@
 .place__url-container {
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
+    display: none;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*small screen*/
-@media (max-width: 375px) {
-  .place__url-container {
-      display: none;
-  }
+@media (min-width: 768px) {
+    .place__url-container {
+        display: inline;
+    }
 }

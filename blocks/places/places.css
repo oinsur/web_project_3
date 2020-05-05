@@ -1,7 +1,1 @@
-/*places styles*/
-@import url(./__list/places__list.css);
-
-.places {
-  margin: 0;
-  padding: 0;
-}  
+@import url('./__list/places__list.css');

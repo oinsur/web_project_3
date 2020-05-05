@@ -1,40 +1,24 @@
 .place__text {
-  width: 100%;
-  font-style: normal;
-  font-weight: normal;
-  color: #FFFFFF;
-  font-size: 18px;
-  
-  line-height: 30px;
-  margin: 0 40px 30px 0;
-  padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 16px 37px 16px;
+    padding: 0;
 }
 
 .place__text:last-child {
-      margin: 0;
-  }
-
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*medium screen*/
-@media (max-width: 768px) {
-  .place__text {
-    margin: 0 28px 25px 0;
-  }
+    margin: 0 16px;
 }
 
-/*small screen*/
-@media (max-width: 375px) {
-  .place__text {
-    margin: 0 28px 25px 0;
-    font-size: 16px;
-    line-height: 27px;
-  }
-}  
-
-/*smaller screen*/
-@media (max-width: 320px) {
-  .place__text {
-    line-height: 169.43%;
+@media (min-width: 768px) {
+    .place__text {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 0 42px 0;
+    }
     
-  }
+    .place__text:last-child {
+        margin: 0;
+    }
 }

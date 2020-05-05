@@ -1,65 +1,17 @@
 .intro__subtitle {
-	width: 683px;
-	height: 75px;
-	margin: 0;
-	padding-top: 45px;
-	font-size: 24px;
-	line-height: 167.44%;
-	color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0 0 35px 0;
+    padding: 0;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.intro__subtitle {
-		width: 683px;
-    padding-top: 45px;
-    padding-left: 148px;
-    font-size: 24px;
-		line-height: 167.44%;
-	}
-}	
-
 /*big screen*/
-@media screen and (max-width: 1024px) {
-	.intro__subtitle {
-		width: 683px;
-    padding-top: 38px;
-    padding-left: 48px;
-    font-size: 24px;
-		line-height: 167.44%;
-	}
-}	
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.intro__subtitle {
-		width: 720px;
-    padding-top: 46px;
-    padding-left: 24px;
-    font-size: 24px;
-		line-height: 167.44%;
-	}	
+@media (min-width: 1024px) {
+    .intro__subtitle {
+        max-width: 682px;
+    }
 }
 
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.intro__subtitle {
-		width: 343px;
-    padding-top: 34px;
-    padding-left: 16px;
-		font-size: 24px;
-		line-height: 167.44%;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.intro__subtitle {
-		width: 285px;
-    padding-top: 34px;
-    font-size: 24px;
-		line-height: 167.44%;
-	}
-}

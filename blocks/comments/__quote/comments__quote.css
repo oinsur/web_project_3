@@ -1,60 +1,8 @@
 .comments__quote {
-	margin: 0;
-    margin-top: 24px;
-    margin-bottom: 0;
-    width: 382px;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.comments__quote {
-		width: 382px;
-		/*top: 139px;*/
-		font-size: 14px;
-		line-height: 24px;
-	}
-}	
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.comments__quote {
-		width: 296px;
-		/*top: 125px;*/
-		font-size: 14px;
-		line-height: 24px;
-	}	 
-}
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.comments__quote {
-		width: 382px;
-		margin-top: 0;
-		font-size: 16px;
-	line-height: 23px;
-	}	
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.comments__quote {
-		width: 343px;
-		/*top: 153px;*/
-		font-size: 16px;
-	line-height: 23px;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.comments__quote {
-		width: 288px;
-		/*top: 177px;*/
-		font-size: 16px;
-		line-height: 23px;
-	}
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
 }

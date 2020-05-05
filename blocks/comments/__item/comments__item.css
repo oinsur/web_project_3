@@ -1,37 +1,21 @@
 .comments__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto 47px auto;
-  padding: 0;
-  max-width: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 47px auto;
+    padding: 0;
+    max-width: 382px;
+}
+
+.comments__item:last-child {
+    margin: 0 auto;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*big screen*/
 @media (min-width: 1024px) {
-  .comments__item {
-    align-items: flex-start;
-    margin: 0;
-  }
-}
-/*medium screen*/
-@media (min-width: 768px) {
-  .comments__item {
-    width: 320px;
-  }
-}
-
-/*small screen*/
-@media screen and (max-width: 375px) {
-	.comments__item {
-		width: 243px;
-	}
-}	
-
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.comments__item {
-		width: 288px;
-	}
+    .comments__item {
+        align-items: flex-start;
+        margin: 0;
+    }
 }

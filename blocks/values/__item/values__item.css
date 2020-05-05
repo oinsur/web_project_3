@@ -1,7 +1,19 @@
+@import url(./_bold/values__item_bold.css);
+
 .values__item {
-	list-style-type: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
 }
 
-.values__item-bold {
-	font-weight: 900;
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*medium screen*/
+@media (min-width: 768px) {
+    .values__item {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }

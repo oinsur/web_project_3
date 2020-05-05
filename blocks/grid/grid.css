@@ -1,54 +1,18 @@
-/*grid styles*/
 @import url(./__item/grid__item.css);
+
 .grid {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-gap: 16px;
-	padding: 0;
-	list-style-type: none;
-	margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-gap: 8px;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1184px;
 }
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media screen and (max-width: 1280px) {
-	.grid {
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(3, 1fr);
-	}	
-}
-
-/*big screen*/
-@media screen and (max-width: 1024px) {
-	.grid {
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(4, 1fr);
-		grid-gap: 14px;
-	}	
-}
-
-/*medium screen*/
-@media screen and (max-width: 768px) {
-	.grid {
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(6, 1fr);		
-		grid-gap: 17px;
-	}	
-}
-
 /*small screen*/
-@media screen and (max-width: 375px) {
-	.grid {
-		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(12, 1fr);
-		grid-gap: 16px;
-	}	
-}
-/*smaller screen*/
-@media screen and (max-width: 320px) {
-	.grid {
-		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(12, 1fr);
-		grid-gap: 8px;
-	}	
+@media (min-width: 375px) {
+    .grid {
+        grid-gap: 16px;
+    }
 }
