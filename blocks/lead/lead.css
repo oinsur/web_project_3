@@ -6,7 +6,8 @@
 .lead {
     padding: 48px 0 64px 0;
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 984px;
+    min-width: 320px;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
