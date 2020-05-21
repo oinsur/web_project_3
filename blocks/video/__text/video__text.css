@@ -7,15 +7,19 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*smaller  screen*/
-@media (min-width: 320px) {
-  .video__text {
-      padding: 0 24px 24px 24px;
-  }
-}
 /*small screen*/
 @media (min-width: 375px) {
   .video__text {
       padding: 0 30px 30px 30px;
+      width: 295px;
   }
 }
+
+/*smaller  screen*/
+@media (min-width: 320px) {
+  .video__text {
+      padding: 0 24px 24px 24px;
+      width: 256px;
+  }
+}
+

@@ -1,11 +1,12 @@
 .video__name {
   font-style: normal;
-  font-family: "Inter-Black";
+  font-weight: bold;
   font-size: 24px;
   line-height: 26px;
-  margin: 0 0 4px 0;
-  padding: 0;
-  max-width: 322px;
+  margin: 0;
+  width: 322px;
+  padding-left: 30px;
+  padding-bottom: 18px;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
@@ -15,5 +16,27 @@
     font-size: 36px;
     line-height: 39px;
     min-height: 73px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .video__name {
+    padding-bottom: 12px;
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 375px){
+  .video__name {
+    width: 295px;
+    padding-bottom: 2px;
+
+  }
+}
+
+@media screen and (max-width: 320px){
+  .video__name {
+    width: 256px;
+    padding-bottom: 4px;
+    padding-left: 16px;
   }
 }

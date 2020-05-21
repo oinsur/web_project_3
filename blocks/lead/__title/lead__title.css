@@ -1,7 +1,7 @@
 .lead__title {
   font-style: normal;
-  font-family: "Inter-Black", sans-serif;
   font-size: 96px;
+  font-weight: bold;
   line-height: 93px;
   text-align: center;
   margin: 0 auto 8px;
