@@ -41,7 +41,3 @@
   }
 }
 /*smaller screen*/
-.cover:hover {
-  opacity: 50%;
-  transition: opacity 0.5s ease;
-}

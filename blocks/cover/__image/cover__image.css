@@ -8,6 +8,11 @@
   overflow: hidden;
   }
 
+  .cover__image:hover {
+    opacity: 50%;
+    transition: opacity 0.5s ease;
+  }
+  
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*big screen*/
 @media screen and (max-width: 1024px) {

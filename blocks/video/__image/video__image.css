@@ -9,7 +9,7 @@
 
 .video__image:hover {
 	transition: .5s ease;
-	opacity: 90%;
+	opacity: 20%;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/

@@ -1,11 +1,11 @@
 
 .cover__title {
   margin: 0;
-  padding-top: 274px;
-  padding-bottom: 134px;  
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  left: 38px;
   text-align: center;
-  align-self: center; 
   font-size: 72px;
   font-weight: bold;
   width: 1094px;
@@ -13,16 +13,12 @@
 
 @media (max-width: 1024px) {
   .cover__title {
-    padding-top: 240px;
-    padding-bottom: 181px;
     width: 1021px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__title {
-    padding-top: 165px;
-    padding-bottom: 127px;
     width: 720px;
   }
 }
@@ -30,16 +26,14 @@
 @media (max-width: 375px) {
   .cover__title {
     font-size: 32px;
-    padding-top: 104px;
-    padding-bottom: 55px;
-    width: 343px;;
+    width: 343px;
+    height: 80px;
   }
 }
 
 @media (max-width: 320px) {
   .cover__title {
-    padding-top: 64px;
-    padding-bottom: 40px;
     width: 288px;
+    height: 72px;
   }
 }
