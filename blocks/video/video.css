@@ -17,3 +17,17 @@
   max-width: 1184px;
   margin: 0 auto;
 }
+
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*medium screen*/
+@media screen and (min-width: 768px) {
+  .video {
+      padding: 110px 24px 0 24px;
+  }
+}
+/*big screeen*/
+@media screen and (min-width: 1024px) {
+  .video {
+      padding: 110px 48px 0 48px;
+  }
+}

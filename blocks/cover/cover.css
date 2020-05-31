@@ -16,28 +16,30 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*large screen*/
-@media (min-width: 1280px) {
-  .cover {
-      min-height: 594px;
-  }
-}
-/*big screen*/
-@media (min-width: 1024px) {
-  .cover {
-      min-height: 562px;
-  }
-}
-/*medium screen*/
-@media (min-width: 768px) {
-  .cover {
-      min-height: 500px;
-  }
-}
 /*small screen*/
-@media (min-width: 375px) {
+@media screen and (min-width: 375px) {
   .cover {
       min-height: 272px;
   }
 }
-/*smaller screen*/
+
+/*medium screen*/
+@media screen and (min-width: 768px) {
+  .cover {
+      min-height: 500px;
+  }
+}
+
+/*big screen*/
+@media screen and (min-width: 1024px) {
+  .cover {
+      min-height: 562px;
+  }
+}
+
+/*large screen*/
+@media screen and (min-width: 1280px) {
+  .cover {
+      min-height: 594px;
+  }
+}

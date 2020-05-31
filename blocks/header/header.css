@@ -11,14 +11,14 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*medium screen*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .header {
         padding: 36px 24px 0 24px;
     }
 }
 
 /*big screen*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .header {
         padding: 36px 48px 0 48px;
     }

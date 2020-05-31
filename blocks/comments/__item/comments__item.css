@@ -13,7 +13,7 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*big screen*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .comments__item {
         align-items: flex-start;
         margin: 0;

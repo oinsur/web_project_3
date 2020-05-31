@@ -1,32 +1,37 @@
 .video__duration {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 13px;
-  letter-spacing: 0.3em;
-  margin: 0;
-  width: 322px;
-  padding-left: 30px;
-  padding-bottom: 12px;
+  color: white;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: .3em;
+    margin: 0;
+    padding: 23px 192px 8px 16px;
 }
 
-@media screen and (max-width: 768px){
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*small screen*/
+@media screen and (min-width: 375px) {
   .video__duration {
-    padding-bottom: 8px;
-    padding-left: 24px;
+    padding: 17px 264px 8px 24px;
   }
 }
 
-@media screen and (max-width: 375px){
+/*medium screen*/
+@media screen and (min-width: 768px) {
   .video__duration {
-    width: 295px;
+    padding: 17px 273px 8px 24px;
   }
 }
 
-@media screen and (max-width: 320px){
+/*big screen*/
+@media screen and (min-width: 1024px) {
   .video__duration {
-    width: 256px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+    padding: 54px 371px 12px 30px;
+  }
+}
+
+/*large screen*/
+@media screen and (min-width: 1280px) {
+  .video__duration {
+    padding: 94px 498px 12px 30px;
   }
 }

@@ -5,7 +5,7 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*medium screen*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .header__logo {
         width: 196px;
         height: 46px;

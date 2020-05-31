@@ -7,23 +7,23 @@
   left: 38px;
   text-align: center;
   font-size: 72px;
-  font-weight: bold;
+  font-weight: 900;
   width: 1094px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover__title {
     width: 1021px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover__title {
     width: 720px;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .cover__title {
     font-size: 32px;
     width: 343px;
@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .cover__title {
     width: 288px;
     height: 72px;

@@ -12,7 +12,7 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*medium screen*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .lead {
         padding: 48px 0 80px 0;
     }

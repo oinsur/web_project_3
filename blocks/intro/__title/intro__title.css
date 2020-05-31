@@ -1,6 +1,6 @@
 .intro__title {
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 34px 0;
@@ -9,7 +9,7 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*medium screen*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .intro__title {
         font-size: 54px;
         line-height: 59px;
@@ -18,7 +18,7 @@
 }
 
 /*big screen*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .intro__title {
         max-width: 682px;
     }

@@ -8,6 +8,8 @@
     padding: 0;
 }
 
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*medium screen*/
 @media (min-width: 768px) {
     .footer__copyright {
         margin: 0;

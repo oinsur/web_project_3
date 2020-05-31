@@ -6,22 +6,21 @@
 @import url(./__title/comments__title.css);
 @import url(./__subtitle/comments__subtitle.css);
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-
 .comments {
     padding: 76px 16px 64px 16px;
     max-width: 1184px;
     margin: 0 auto;
 }
 
+/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*medium screen*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .comments {
         padding: 116px 64px 100px 64px;
     }
 }
 /*big screen*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .comments {
         padding: 102px 48px 84px 48px;
     }

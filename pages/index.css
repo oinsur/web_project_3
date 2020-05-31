@@ -16,3 +16,7 @@
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
+
+body {
+  background-color: #2A2C2F;;
+}

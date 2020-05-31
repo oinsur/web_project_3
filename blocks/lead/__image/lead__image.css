@@ -5,14 +5,14 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*medium screen*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .lead__image {
         margin: 0 0 16px 0;
     }
 }
 
 /*big screen*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .lead__image {
         width: calc(100% - 96px);
         padding: 0 48px;
@@ -21,7 +21,7 @@
 }
 
 /*large screen*/
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .lead__image {
         margin: 0 0 11px 0;
     }

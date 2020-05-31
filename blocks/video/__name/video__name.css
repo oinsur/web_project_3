@@ -1,42 +1,40 @@
 .video__name {
-  font-style: normal;
-  font-weight: bold;
   font-size: 24px;
-  line-height: 26px;
-  margin: 0;
-  width: 322px;
-  padding-left: 30px;
-  padding-bottom: 18px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0px 16px 4px 16px;
+    width: 256px;
+    font-weight: 900;
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*big screen*/
-@media (min-width: 1024px) {
+/*small screen*/
+@media screen and (min-width: 375px) {
   .video__name {
+    padding: 0 24px 3px 24px;
+  }
+}
+/*medium screen*/
+@media screen and (min-width: 768px){
+  .video__name {
+		padding: 0 6px 3px 24px;
+  }
+}
+
+/*big screen*/
+@media screen and (min-width: 1024px){
+  .video__name {
+    padding: 0 104px 14px 30px;
     font-size: 36px;
     line-height: 39px;
-    min-height: 73px;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .video__name {
-    padding-bottom: 12px;
-    padding-left: 24px;
-  }
-}
-@media screen and (max-width: 375px){
-  .video__name {
-    width: 295px;
-    padding-bottom: 2px;
+    width: 322px;
 
   }
 }
 
-@media screen and (max-width: 320px){
+/*large screen*/
+@media screen and (min-width: 1280px){
   .video__name {
-    width: 256px;
-    padding-bottom: 4px;
-    padding-left: 16px;
+    padding: 0 231px 14px 30px;
   }
 }

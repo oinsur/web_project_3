@@ -1,7 +1,7 @@
 .comments__title {
     margin: 0 0 27px 0;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     text-align: center;
@@ -9,7 +9,7 @@
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
 /*medium screen*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .comments__title {
         margin: 0 0 42px 0;
         font-size: 42px;
@@ -18,7 +18,7 @@
 }
 
 /*big screen*/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .comments__title {
         margin: 0 auto 58px;
         max-width: 800px;

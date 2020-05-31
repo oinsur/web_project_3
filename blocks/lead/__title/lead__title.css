@@ -1,7 +1,7 @@
 .lead__title {
   font-style: normal;
   font-size: 96px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 93px;
   text-align: center;
   margin: 0 auto 8px;
@@ -9,7 +9,7 @@
   width: 928px;
 }
 
-/*small screen*/
+/*smaller screen*/
 @media screen and (min-width: 320px){
     .lead__title{
         width: 288px;
@@ -17,15 +17,15 @@
         line-height: 44px;
     }
 }
-
+/*small screen*/
 @media screen and (min-width: 375px) {
 	.lead__title {
 		width:343px;
 	}
 }	 
 
-
-@media (min-width: 768px) {
+/*medium screen*/
+@media screen and (min-width: 768px) {
   .lead__title {
     margin: 0 auto 48px;
     width: 720px;
@@ -34,15 +34,15 @@
   }
 }	
 
-
-@media (min-width: 1024px) {
+/*bid screen*/
+@media screen and (min-width: 1024px) {
   .lead__title {
     width: 928px;
   }
 }
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-/*medium screen*/
-@media (min-width: 1280px) {
+
+/*large screen*/
+@media screen and (min-width: 1280px) {
   .lead__title {
     width: 782px;
   }

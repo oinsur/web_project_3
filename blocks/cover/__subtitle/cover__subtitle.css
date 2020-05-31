@@ -11,20 +11,20 @@
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover__subtitle {
     padding-top: 181px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover__subtitle {
     padding-top: 127px;
   }
 }
 
 /*small screen*/
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 17px;
