@@ -1,18 +1,24 @@
 /*cover styles*/
-@import url(./__image/cover__image.css);
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
-@import url(./__text/cover__text.css);
+/*@import url('./__image/cover__image.css');*/
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__text/cover__text.css');
 
 .cover {
   padding: 0;
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   max-width: 1184px;
   margin: 0 auto;
   overflow: hidden;
+  background-image: url(../../images/desert-highway.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  
 }
 
 /*Use these checkpoints: 320, 375, 768, 1024, 1280*/
