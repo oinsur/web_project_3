@@ -1,21 +1,22 @@
 .lead__subtitle {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    margin: 0 auto 32px;
-    max-width: 288px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  align-self: center;
+  margin: 0 auto 32px;
+  max-width: 288px;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*Use these checkpoints: 320, 768, 1024, 1280*/
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .lead__subtitle {
-        font-size: 30px;
-        line-height: 36px;
-        margin: 0 auto 67px;
-        max-width: 610px;
-    }
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto 67px;
+    max-width: 610px;
+  }
 }
 

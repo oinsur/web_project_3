@@ -4,20 +4,23 @@
 
 
 .intro {
-    padding: 0 16px 72px 16px;
-    margin: 0 auto;
-    max-width: 984px;
+  padding: 0 16px 72px 16px;
+  margin: 0 auto;
+  max-width: 984px;
+  
 }
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+
+/*Use these checkpoints: 320, 768, 1024, 1280*/
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .intro {
-        padding: 0 24px 93px 24px;
-    }
+  .intro {
+    padding: 0 24px 93px 24px;
+  }
 }
+
 /*big screen*/
 @media screen and (min-width: 1024px) {
-    .intro {
-        padding: 0 48px 102px 48px;
-    }
+  .intro {
+    padding: 0 48px 102px 48px;
+  }
 }

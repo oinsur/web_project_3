@@ -1,10 +1,12 @@
 .place__image {
-    width: 100%;
-    margin: 0 0 24px 0;
+  width: 100%;
+  margin: 0 0 24px 0;
 }
 
+/*Use these checkpoints: 320, 768, 1024, 1280*/
+/*medium screen*/
 @media screen and (min-width: 768px) {
-    .place__image {
-        margin: 0;
-    }
+  .place__image {
+    margin: 0;
+  }
 }

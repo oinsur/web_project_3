@@ -1,18 +1,19 @@
 @import url('./__item/grid__item.css');
 
 .grid {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-gap: 8px;
-    margin: 0 auto;
-    padding: 0 16px;
-    max-width: 1184px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-gap: 16px;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1184px;
 }
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+
+/*Use these checkpoints: 320, 768, 1024, 1280*/
 /*small screen*/
-@media screen and (min-width: 375px) {
-    .grid {
-        grid-gap: 16px;
-    }
+@media screen and (max-width: 320px) {
+  .grid {
+    grid-gap: 12px;
+  }
 }

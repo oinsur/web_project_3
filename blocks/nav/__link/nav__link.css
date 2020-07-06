@@ -1,22 +1,22 @@
 .nav__link {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 17px;
-    text-decoration: none;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .nav__link:hover {
-    opacity: 50%;
-    transition: opacity .5s ease;
+  opacity: 50%;
+  transition: opacity .5s ease;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*Use these checkpoints: 320, 768, 1024, 1280*/
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .nav__link {
-        font-size: 24px;
-        line-height: 23px;
-    }
+  .nav__link {
+    font-size: 24px;
+    line-height: 23px;
+  }
 }

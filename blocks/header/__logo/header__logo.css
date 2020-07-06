@@ -1,13 +1,13 @@
 .header__logo {
-    width: 156px;
-    height: 36px;
+  width: 156px;
+  height: 36px;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*Use these checkpoints: 320, 768, 1024, 1280*/
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .header__logo {
-        width: 196px;
-        height: 46px;
-    }
+  .header__logo {
+    width: 196px;
+    height: 46px;
+  }
 }

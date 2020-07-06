@@ -4,17 +4,32 @@
 @import url('./__subtitle/lead__subtitle.css');
 
 .lead {
-    padding: 48px 0 64px 0;
-    margin: 0 auto;
-    max-width: 984px;
-    min-width: 320px;
+  padding: 58px 0 92px 0;
+  margin: 0 auto;
+  max-width: 984px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*Use these checkpoints: 320, 768, 1024, 1280*/
+/*big screen*/
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding-top: 50px;
+  }
+}
+
 /*medium screen*/
-@media screen and (min-width: 768px) {
-    .lead {
-        padding: 48px 0 80px 0;
-    }
+@media screen and (max-width: 768px) {
+  .lead {
+    padding-bottom: 88px;
+  }
 }
 
+/*small screen*/
+@media screen and (max-width: 320px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}

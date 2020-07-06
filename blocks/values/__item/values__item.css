@@ -1,18 +1,18 @@
 @import url('./_bold/values__item_bold.css');
 
 .values__item {
-    font-style: normal;
-    font-size: 12px;
-    line-height: 19px;
-    margin: 0;
-    padding: 0;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*Use these checkpoints: 320, 768, 1024, 1280*/
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .values__item {
-        font-size: 13px;
-        line-height: 20px;
-    }
+  .values__item {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }

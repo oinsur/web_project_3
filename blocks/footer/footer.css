@@ -4,27 +4,27 @@
 @import url('./__copyright/footer__copyright.css');
 
 .footer {
-    padding: 64px 16px 22px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1184px;
+  padding: 64px 16px 22px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1184px;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*Use these checkpoints: 320, 768, 1024, 1280*/
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .footer {
-        padding: 102px 24px 24px 24px;
-        flex-direction: row;
-        align-items: center;
-    }
+  .footer {
+    padding: 102px 24px 24px 24px;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 /*big screen*/
 @media screen and (min-width: 1024px) {
-    .footer {
-        padding: 160px 48px 48px 48px;
-    }
+  .footer {
+    padding: 160px 48px 48px 48px;
+  }
 }

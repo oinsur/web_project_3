@@ -1,25 +1,32 @@
 .lead__caption {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: .15em;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin: 0;
 }
 
-/*Use these checkpoints: 320, 375, 768, 1024, 1280*/
+/*Use these checkpoints: 320, 768, 1024, 1280*/
+/*small screen*/
+@media screen and (min-width: 320px) {
+  .lead__caption {
+    margin: 0 16px;
+  }
+}
+
 /*medium screen*/
 @media screen and (min-width: 768px) {
-    .lead__caption {
-        margin: 0 24px;
-    }
+  .lead__caption {
+    margin: 0 24px;
+  }
 }
 
 /*big screen*/
 @media screen and (min-width: 1024px) {
-    .lead__caption {
-        margin: 0 48px;
-    }
+  .lead__caption {
+    margin: 0;
+  }
 }
