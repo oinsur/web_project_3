@@ -1,0 +1,14 @@
+.video__text {
+    padding: 0 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Use these checkpoints: 320, 768, 1024, 1280*/
+/*small screen*/
+@media (min-width: 375px) {
+    .video__text {
+        padding: 0 24px 24px 24px;
+    }
+}

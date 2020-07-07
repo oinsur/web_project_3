@@ -1,0 +1,34 @@
+@import url('./__title/video__title.css');
+@import url('./__subtitle/video__subtitle.css');
+@import url('./__item/video__item.css');
+@import url('./__author/video__author.css');
+@import url('./__name/video__name.css');
+@import url('./__duration/video__duration.css');
+@import url('./__icon/video__icon.css');
+@import url('./__image/video__image.css');
+@import url('./__content/video__content.css');
+@import url('./__link/video__link.css');
+@import url('./__text/video__text.css');
+@import url('./__container/video__container.css');
+
+
+.video {
+    padding: 63px 16px 0;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+/*Use these checkpoints: 320, 768, 1024, 1280*/
+/*medium screen*/
+@media (min-width: 768px) {
+    .video {
+        padding: 110px 24px 0;
+    }
+}
+
+/*big screen*/
+@media (min-width: 1024px) {
+    .video {
+        padding: 110px 48px 0;
+    }
+}
