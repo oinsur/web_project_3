@@ -4,13 +4,31 @@
 @import url('./__link/cover__link.css');
 
 .cover {
+  position: relative;
   margin: 0 auto;
-  max-width: 1184px;
-  max-height: 740px;
-  padding: 0;
+    max-width: 1184px;
+    height: 740px;
+    padding: 0;
 }
 
+
 /*Use these checkpoints: 320, 768, 1024, 1280*/
+/*big screen*/
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-height: 640px;
+    
+  }
+}
+
+/*medium screen*/
+@media screen and (max-width: 768px) {
+  .cover {
+    max-height: 480px;
+    
+  }
+}
+
 /*small screen*/
 @media screen and (max-width: 320px) {
   .cover {

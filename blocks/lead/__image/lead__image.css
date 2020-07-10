@@ -1,20 +1,35 @@
 .lead__image {
   width: 100%;
+  height: 100%;
   margin: 0 0 8px 0;
   align-self: center;
 }
 
 /*Use these checkpoints: 320, 768, 1024, 1280*/
+/*small screen*/
+@media screen and (min-width: 320px) {
+  .lead__image {
+    min-height: 200px;
+    }
+}
+
 /*medium screen*/
 @media screen and (min-width: 768px) {
   .lead__image {
-    width: 100%;
+    height: 480px;
+    }
+}
+
+/*big screen*/
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    height: 580px;
     }
 }
 
 /*large screen*/
 @media screen and (min-width: 1280px) {
-    .lead__image {
-        margin: 0 0 8px 0;
+  .lead__image {
+    height: 615px;
     }
 }

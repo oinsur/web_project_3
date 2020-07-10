@@ -2,10 +2,9 @@
   font-style: normal;
   font-size: 96px;
   font-weight: 900;
-  line-height: 93px;
   text-align: center;
   align-self: center;
-  margin: 0 auto 8px;
+  margin: 0 auto 16px;
   padding: 0;
   width: 928px;
 }
@@ -23,10 +22,10 @@
 /*medium screen*/
 @media screen and (min-width: 768px) {
   .lead__title {
-    margin: 0 auto 48px;
+    margin: 0 auto 32px;
     width: 720px;
     font-size: 96px;
-    line-height: 93px;
+    line-height: 100px;
   }
 }	
 

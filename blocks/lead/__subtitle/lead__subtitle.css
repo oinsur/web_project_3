@@ -2,21 +2,27 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 23px;
+  line-height: 20px;
   text-align: center;
   align-self: center;
-  margin: 0 auto 32px;
+  margin: 0 auto 40px;
   max-width: 288px;
 }
 
 /*Use these checkpoints: 320, 768, 1024, 1280*/
+/*big screen*/
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    margin: 0 auto 64px;
+  }
+}
+
 /*medium screen*/
 @media screen and (min-width: 768px) {
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
-    margin: 0 auto 67px;
-    max-width: 610px;
+    margin: 0 auto 56px;
+    max-width: 620px;
   }
 }
-
